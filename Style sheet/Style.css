@@ -1,0 +1,116 @@
+*{
+    padding: 20px 0px;
+}
+
+.img{
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+body{
+    background-color: plum;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10 0 10;
+    border: 3px solid black;
+}
+html{
+    background-color: rgb(167, 208, 247);
+    font-weight: bold;
+}
+.que{
+    font-size: 25px;
+    color: red;
+}
+.bio{
+    margin:0 auto;
+    padding: 0px 0px 10px 40px;
+    line-height: 1;
+    font-size: 22px;
+    
+}
+h1{
+    font-size: 65px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 3px 3px 1px;
+}
+
+footer {
+    bottom: 0; 
+    right: 0; 
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Username form styles */
+#username-form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#name-form {
+    display: inline-block;
+}
+
+#name-input {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"],
+#change-name-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+#change-name-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Feedback form styles */
+.feedback-container {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+/* Feedback box styles */
+.feedback-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
